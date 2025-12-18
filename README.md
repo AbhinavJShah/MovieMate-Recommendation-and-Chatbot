@@ -29,4 +29,10 @@ It uses **content-based filtering** for recommendations and an **Azure OpenAI–
 ---
 
 ## 📂 Project Structure
-
+├── app.py # Streamlit frontend
+├── rag_backend.py # Azure OpenAI chatbot backend
+├── Movie Recommendation.ipynb # Model training & experimentation
+├── movie_dict.pkl # Movie metadata
+├── similarity.pkl # Precomputed similarity matrix
+├── requirements.txt
+└── README.md
